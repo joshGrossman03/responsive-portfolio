@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
 
 
+img{
+    width:100%;
+}
+
 div nav {
     box-sizing: border-box;
 }
@@ -8,8 +12,9 @@ div nav {
 .container{
 background-color:white;
 margin-bottom:30px;
+Margin-left:150px;
 box-sizing: content-box;
-width: 75%;
+width: 80%;
 align-self: center;
 }
 
@@ -73,16 +78,15 @@ a:hover{
     clear:both;
     float:left;
     height:150;
-    width:100%;
     margin-left:10px;
+    width:100%;
 }
 
 .narrative {
-    float:left;
+    float:right;
     font-family: 'Noto Sans', sans-serif;
-    margin-top: 30px;
     line-height: 1.5;
-    margin-left:2px;
+    margin-left:10px;
     position: relative;
 }
 .narrativeTwo {
